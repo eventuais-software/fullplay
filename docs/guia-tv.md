@@ -38,6 +38,16 @@ Com esta opção ligada, a FullPlay abre quando a TV liga. Em Android 10 ou mais
 
 O mesmo endereço serve as duas coisas: num telemóvel abre o Mobile Control; num computador abre o backoffice (biblioteca, playlists, agenda, layout, ecrã e rede, OSC, licença e versão).
 
+### Novidades da versão 0.3
+
+- **Enviar para a PEN USB:** na Biblioteca, com uma PEN ligada à TV, escolha **Enviar para › PEN USB** e a pasta (por omissão `FullPlay`). Os ficheiros largados na página ou escolhidos em «Enviar ficheiros» são gravados na PEN, não na biblioteca da TV.
+  - Em Android 11 ou mais recente, gravar nas pastas da PEN exige a autorização **Acesso a todos os ficheiros**. Use o botão **Autorizar na TV** da Biblioteca ou, no menu da TV, **Definições › Autorizar gravar na PEN USB**. Abre-se na TV a lista de apps: escolha a FullPlay e ative-a com o comando.
+  - Sem essa autorização, os ficheiros ficam na pasta da FullPlay na PEN (`Android/data/pt.eventuais.fullplay/files/<pasta>`), onde o Android deixa sempre gravar. Essa pasta é apagada se a app for desinstalada.
+- **Camadas do layout:** no editor de layout, a lista **Camadas** mostra os widgets pela ordem em que aparecem: a de cima fica à frente. Arraste pela pega ⋮⋮ para subir ou descer (ou Alt + ↑/↓).
+- **QR code personalizado:** o widget **QR code** pode mostrar o Mobile Control, um endereço, um texto livre ou os dados de uma rede Wi-Fi (quem lê liga-se à rede), com legenda por baixo e cores do QR e do fundo. Máximo de cerca de 100 caracteres.
+- **Reprodução ativa:** no Painel (e no Mobile Control), o interruptor **Reprodução ativa** desliga a reprodução: a TV fica em negro e sem som e a agenda não põe nada no ar até voltar a ligar. Escolher um conteúdo à mão também volta a ligar. Pede confirmação antes de desligar.
+- **Ao arrancar, retomar o que estava no ar** (Ecrã e rede): ligado por omissão. Desligado, a TV começa pelo que a agenda manda.
+
 ## Agenda e horário de funcionamento
 
 - **Horário de funcionamento:** fora do horário, o ecrã fica negro.
@@ -50,7 +60,7 @@ A mesma do StageFlow e do VYTRIX Live: quadrados e círculos perfeitos (se ficar
 
 ## OSC (UDP, porta 9000)
 
-`/fullplay/play`, `/pause`, `/toggle`, `/next`, `/prev`, `/stop`, `/item <n>`, `/playlist <nome ou id>`, `/fullscreen <0|1>`, `/layout`, `/teste [0|1]`, `/black [0|1]`, `/volume <0–1>`, `/rotate <0|90|180|270>`, `/agenda`. Feedback opcional: `/fullplay/item`, `/fullplay/remaining`, `/fullplay/teste`, `/fullplay/black`.
+`/fullplay/play`, `/pause`, `/toggle`, `/next`, `/prev`, `/stop`, `/item <n>`, `/playlist <nome ou id>`, `/fullscreen <0|1>`, `/layout`, `/teste [0|1]`, `/black [0|1]`, `/volume <0–1>`, `/rotate <0|90|180|270>`, `/agenda`, `/playback <0|1>` (reprodução ativa). Feedback opcional: `/fullplay/item`, `/fullplay/remaining`, `/fullplay/teste`, `/fullplay/black`.
 
 ## Licença
 

@@ -11,17 +11,17 @@ A FullPlay transforma uma TV Android, uma Google TV ou uma box Android ligada po
 
 | Aplicação | Para quê | Versão | Descarregar |
 |---|---|---|---|
-| **FullPlay** | Leitor de sinalética para Android TV / Google TV | **0.2.0** | [FullPlay-0.2.0.apk](https://github.com/eventuais-software/fullplay/releases/download/fullplay-0.2.0/FullPlay-0.2.0.apk) |
+| **FullPlay** | Leitor de sinalética para Android TV / Google TV | **0.3.0** | [FullPlay-0.3.0.apk](https://github.com/eventuais-software/fullplay/releases/download/fullplay-0.3.0/FullPlay-0.3.0.apk) |
 
 Todas as versões, com as notas de cada uma, estão em [Releases](https://github.com/eventuais-software/fullplay/releases). O que mudou em cada versão está no [Histórico de versões](HISTORICO.md).
 
 ## O que faz
 
 - **Reprodução:** playlists de vídeos e imagens, loop, slideshow com transições; ficheiros da própria TV, de uma PEN USB ou endereços de rede (HTTP, HLS, RTSP).
-- **Full screen** (por omissão) ou **layout** com relógio, data, meteorologia, RSS, logótipo, texto e QR; imagem de fundo do cliente.
+- **Full screen** (por omissão) ou **layout** com relógio, data, meteorologia, RSS, logótipo, texto e QR code personalizado (endereço, texto ou Wi-Fi), em camadas; imagem de fundo do cliente.
 - **Agenda:** horário de funcionamento e blocos por dia da semana ou por data.
 - **Rotação** do ecrã (TVs na vertical) e **mira de testes**.
-- **Controlo:** comando da TV, Mobile Control e backoffice no browser (com PIN), OSC (UDP 9000).
+- **Controlo:** comando da TV, Mobile Control e backoffice no browser (com PIN), OSC (UDP 9000). Envio de ficheiros do computador para a TV ou para uma PEN USB ligada à TV.
 - **Licença** emitida pela Eventuais; sem licença funciona em modo demonstração (marca de água).
 - **Atualizações** a partir desta página, com confirmação na TV.
 

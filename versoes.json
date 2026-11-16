@@ -1,0 +1,12 @@
+{
+  "atualizado": "2026-11-16",
+  "produtos": {
+    "tv": {
+      "nome": "FullPlay",
+      "versao": "0.2.0",
+      "versionCode": 2,
+      "url": "https://github.com/eventuais-software/fullplay/releases/download/fullplay-0.2.0/FullPlay-0.2.0.apk",
+      "notas": "https://github.com/eventuais-software/fullplay/releases/tag/fullplay-0.2.0"
+    }
+  }
+}
